@@ -6,6 +6,8 @@ from ast import Return
 phone_numbers = {'Person_1': '111111',
                  'Person_2': '22222',
                  'Person_3': '333333',
+                 'Person_4': '444444',
+
 }
 
 
@@ -16,7 +18,7 @@ def add_data(string_1, string_2):
     
 def view_data(dictionary):
     global phone_numbers
-    print(phone_numbers)
+    print(dictionary)
     
 def remove_data(string_1):
     global phone_numbers
@@ -27,6 +29,7 @@ def find_contact(string_1):
     global phone_numbers
     user_contact = string_1 + ": " + phone_numbers[string_1]
     # print(user_contact)
+    print(user_contact)
     return user_contact
     
 # view_data(phone_numbers)
