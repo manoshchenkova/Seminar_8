@@ -8,12 +8,11 @@ def hello_user():
 
 def view_data_add_name():
     added_contact_name = input(f'Добавьте имя: ')
-    print(f'Данные успешно добавлены: ', added_contact_name)
     return added_contact_name
     
 def view_data_add_phone():
     added_contact_phone = input(f'Добавьте телефон: ')
-    print(added_contact_phone)
+    print(f'Данные успешно добавлены')
     return added_contact_phone    
 
 def view_data_remove(dictionary):
